@@ -4,8 +4,13 @@ score2 = 0
 total = 0
 average = 0.0
 scoreCount = 0
-#numberOfScores = input("Please enter the number of scores that you want to average: ")
-score1 = int(input("Please enter a test score: "))
-score2 = int(input("Please enter a test score: "))
-average = (score1 + score2) / 2
-print(average)
+#numberOfScores = int(input("Please enter the number of scores that you want to average: "))
+
+#What python loop structure could we use to repeat the next 3 lines
+score = int(input("Please enter the score: "))
+total = total + score
+scoreCount = scoreCount + 1
+
+if scoreCount != numberOfScores:
+    average = total / numberOfScores
+    print(average)
