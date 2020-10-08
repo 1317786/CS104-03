@@ -30,7 +30,7 @@ elif temp > 70:
     print("Short sleeves are fine")
 elif temp > 50:
     print("Wear a jacket")
-elif temp > 32:
+elif temp > 32: 
     print("Wear a heavy coat")
 else:
     print("Stay inside")
